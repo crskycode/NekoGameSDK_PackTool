@@ -12,3 +12,6 @@ NekoGameSDK_PackTool -c "e:\game\cg.new.pak" "e:\extract\cg"
 
 This tool creates file with signature `NEKOPACK4A`. Please check your original file before use this tool.
 
+#### Staff
+
+I would be very grateful if you can add me to the staff list of translation project.
