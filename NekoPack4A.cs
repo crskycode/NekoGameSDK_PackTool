@@ -96,14 +96,14 @@ namespace NekoGameSDK_PackTool
 
         static uint ComputeHash(byte[] data)
         {
-            uint hash = 0;
+            int hash = 0;
 
             for (var i = 0; i < data.Length; i++)
             {
-                hash += data[i];
+                hash += (sbyte)data[i];
             }
 
-            return hash;
+            return (uint)hash;
         }
 
         static void EncryptData(byte[] data)
